@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoreViewController">
+            <connections>
+                <outlet property="btn2_Document" destination="WRd-1s-R1y" id="JTC-lY-uq2"/>
+                <outlet property="btn2_addClerk" destination="vvv-oc-57q" id="AF5-TQ-RBz"/>
+                <outlet property="btn2_ask" destination="LeB-WQ-JrZ" id="77K-XQ-DUb"/>
+                <outlet property="btn2_check" destination="FH5-NP-zMQ" id="DG2-No-hTc"/>
+                <outlet property="btn2_gps" destination="0fJ-Zl-qDg" id="R7e-Y9-M4d"/>
+                <outlet property="btn2_msg" destination="fxH-lN-6Lb" id="SD1-nX-oDi"/>
+                <outlet property="btn2_myApply" destination="Set-bG-Olf" id="86Y-uM-MMV"/>
+                <outlet property="btn2_myApproval" destination="5XP-P7-J4i" id="uEp-f2-MIa"/>
+                <outlet property="btn2_myOrder" destination="AOg-FT-8ZF" id="2GY-8D-gbc"/>
+                <outlet property="btn2_myTask" destination="mnO-S6-Kgh" id="J36-Qs-UMQ"/>
+                <outlet property="btn2_rival" destination="llG-RT-cDQ" id="tYk-jZ-chK"/>
+                <outlet property="btn2_routeBack" destination="3UI-36-gA3" id="8d4-og-qDg"/>
+                <outlet property="btn2_storage" destination="thk-yY-ywa" id="4A5-Kx-GVk"/>
+                <outlet property="btn2_vist" destination="S1g-hY-P3e" id="ifY-Ec-5TL"/>
+                <outlet property="btn4_Document" destination="vrR-S5-6Bd" id="L5J-oV-6q1"/>
+                <outlet property="btn4_addClerk" destination="018-hd-z0n" id="DGR-jJ-Kk8"/>
+                <outlet property="btn4_ask" destination="dqo-eA-kl8" id="12H-HM-euH"/>
+                <outlet property="btn4_check" destination="pbP-ej-wX2" id="1A9-ZX-7l3"/>
+                <outlet property="btn4_dataAnalyse" destination="6rM-ha-siM" id="oMK-9E-xmt"/>
+                <outlet property="btn4_gps" destination="XGq-ZH-LF9" id="evS-Un-K8d"/>
+                <outlet property="btn4_msg" destination="GqF-59-Na0" id="cKh-XB-Mau"/>
+                <outlet property="btn4_myApply" destination="aaD-TD-B74" id="p2r-ke-8d2"/>
+                <outlet property="btn4_myApproval" destination="w9E-xh-ydU" id="kEw-a9-QUY"/>
+                <outlet property="btn4_myOrder" destination="iZi-V5-lqh" id="sh0-sW-foH"/>
+                <outlet property="btn4_myTask" destination="LMz-QS-IfT" id="5JP-2J-qKY"/>
+                <outlet property="btn4_rival" destination="akv-gZ-CBQ" id="xqC-Ir-acg"/>
+                <outlet property="btn4_routeBack" destination="3yn-df-eU6" id="A9x-38-B5n"/>
+                <outlet property="btn4_storage" destination="zwt-Et-wa3" id="Ryb-Q8-yso"/>
+                <outlet property="btn4_vist" destination="98g-rd-BVx" id="uud-eL-iPo"/>
+                <outlet property="btn_Document" destination="Vo4-nK-KRi" id="xhx-Xl-DRL"/>
+                <outlet property="btn_addClerk" destination="VdT-NK-Ahn" id="t2g-xw-Lhg"/>
+                <outlet property="btn_check" destination="GCe-hA-mln" id="Ywf-nu-je2"/>
+                <outlet property="btn_gps" destination="cPi-Hm-cPK" id="iV1-M2-rI8"/>
+                <outlet property="btn_msg" destination="gcS-nu-lpA" id="XLP-DV-O0v"/>
+                <outlet property="btn_myApply" destination="7pA-og-yTJ" id="Ivo-Vt-0AQ"/>
+                <outlet property="btn_myApproval" destination="hhp-jJ-oLO" id="r65-el-IE3"/>
+                <outlet property="btn_myOrder" destination="L7Y-N9-Ap6" id="SGQ-s9-Ib7"/>
+                <outlet property="btn_myTask" destination="X7c-V6-bbg" id="jdA-Pb-ArT"/>
+                <outlet property="btn_rival" destination="jt0-n1-8qg" id="oky-ug-MPq"/>
+                <outlet property="btn_storage" destination="ZSq-f8-EA2" id="OPs-cJ-DXU"/>
+                <outlet property="btn_vist" destination="ugr-zo-qal" id="gZX-qg-heX"/>
+                <outlet property="img_mention_1_1" destination="6mr-5d-OSN" id="buT-WZ-fqX"/>
+                <outlet property="img_mention_1_2" destination="SKa-vE-eam" id="trK-Zs-hdc"/>
+                <outlet property="img_mention_1_3" destination="BzU-2W-8R3" id="A81-Gi-NYS"/>
+                <outlet property="img_mention_2_1" destination="wwz-78-cUo" id="7iu-IJ-nZf"/>
+                <outlet property="img_mention_2_2" destination="eF6-EF-UNs" id="Zen-Oo-jbj"/>
+                <outlet property="img_mention_2_3" destination="w7c-i9-6oH" id="Usr-HI-gJ6"/>
+                <outlet property="img_mention_4_1" destination="sfE-P2-wlz" id="29u-cu-Jvv"/>
+                <outlet property="img_mention_4_2" destination="7g0-8M-XsM" id="UHQ-ve-eyu"/>
+                <outlet property="img_mention_4_3" destination="gF0-be-M7e" id="YdM-8H-Xkk"/>
+                <outlet property="scroll1" destination="HUg-TG-Lys" id="qy2-5l-aed"/>
+                <outlet property="scroll2" destination="09j-AC-CJ9" id="GMa-KZ-6Zm"/>
+                <outlet property="scroll3" destination="8WN-or-4Pf" id="Fp0-KR-giz"/>
+                <outlet property="scroll4" destination="uvb-Sq-s3D" id="dWf-0b-Tqs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="410" y="-665"/>
+        </view>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HUg-TG-Lys">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="601"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gcS-nu-lpA">
+                    <rect key="frame" x="10" y="5" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_1.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_message:" destination="-1" eventType="touchUpInside" id="IjT-O4-yMp"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="6mr-5d-OSN">
+                    <rect key="frame" x="130" y="17" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VdT-NK-Ahn">
+                    <rect key="frame" x="163" y="5" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_2.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_clerk:" destination="-1" eventType="touchUpInside" id="Tmx-gP-rh7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jt0-n1-8qg">
+                    <rect key="frame" x="240" y="5" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_3.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_rival:" destination="-1" eventType="touchUpInside" id="Djj-KV-AqO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ugr-zo-qal">
+                    <rect key="frame" x="163" y="81" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_23.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_visit:" destination="-1" eventType="touchUpInside" id="Ns7-Aa-uHX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X7c-V6-bbg">
+                    <rect key="frame" x="11" y="233" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_22.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_myTask:" destination="-1" eventType="touchUpInside" id="E5x-RA-gLf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="SKa-vE-eam">
+                    <rect key="frame" x="130" y="243" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7pA-og-yTJ">
+                    <rect key="frame" x="163" y="157" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_9.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_myApply:" destination="-1" eventType="touchUpInside" id="cKQ-Rd-ai7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vo4-nK-KRi">
+                    <rect key="frame" x="11" y="385" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_11.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_CompanyDocument:" destination="-1" eventType="touchUpInside" id="422-ZV-qYE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GUS-oh-6p3">
+                    <rect key="frame" x="87" y="385" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_12.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Advice:" destination="-1" eventType="touchUpInside" id="iFh-b4-13j"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hhp-jJ-oLO">
+                    <rect key="frame" x="163" y="233" width="148" height="148"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_10.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_WaitingForAssessment:" destination="-1" eventType="touchUpInside" id="jmx-pl-DLp"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="BzU-2W-8R3">
+                    <rect key="frame" x="283" y="243" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GCe-hA-mln">
+                    <rect key="frame" x="10" y="461" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_5.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_SignUp:" destination="-1" eventType="touchUpInside" id="qII-pW-NrK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WuJ-qv-O8U">
+                    <rect key="frame" x="86" y="461" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_13.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ClearAll:" destination="-1" eventType="touchUpInside" id="sHL-Yb-hoX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KGr-Sh-MgG">
+                    <rect key="frame" x="163" y="385" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_14.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_AboutUs:" destination="-1" eventType="touchUpInside" id="n7f-gV-gjQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1oH-YV-EqE">
+                    <rect key="frame" x="163" y="462" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_33.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Exit:" destination="-1" eventType="touchUpInside" id="fu1-Aa-c40"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7TK-qU-JDf">
+                    <rect key="frame" x="239" y="385" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_32.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ChangeSecret:" destination="-1" eventType="touchUpInside" id="1oT-AK-BHP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="L7Y-N9-Ap6">
+                    <rect key="frame" x="11" y="157" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_21.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_submitOrder:" destination="-1" eventType="touchUpInside" id="TbI-VY-HBg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cPi-Hm-cPK">
+                    <rect key="frame" x="11" y="309" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_gps.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_GPS:" destination="-1" eventType="touchUpInside" id="oYA-xh-c9k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZSq-f8-EA2">
+                    <rect key="frame" x="8" y="81" width="150" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_storage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Storage:" destination="-1" eventType="touchUpInside" id="LZc-UK-EY9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-79" y="-540.5"/>
+        </scrollView>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="09j-AC-CJ9">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="663"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fxH-lN-6Lb">
+                    <rect key="frame" x="10" y="5" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_1.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_message:" destination="-1" eventType="touchUpInside" id="ieM-yB-t37"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="wwz-78-cUo">
+                    <rect key="frame" x="131" y="18" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vvv-oc-57q">
+                    <rect key="frame" x="162" y="5" width="73" height="73"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_2.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_clerk:" destination="-1" eventType="touchUpInside" id="WHL-DR-kFe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="llG-RT-cDQ">
+                    <rect key="frame" x="238" y="5" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_3.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_rival:" destination="-1" eventType="touchUpInside" id="HUl-Fg-b6w"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S1g-hY-P3e">
+                    <rect key="frame" x="163" y="81" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_visit:" destination="-1" eventType="touchUpInside" id="fWP-pp-7Ia"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FH5-NP-zMQ">
+                    <rect key="frame" x="238" y="81" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_5.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_SignUp:" destination="-1" eventType="touchUpInside" id="A4q-pW-M8W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AOg-FT-8ZF">
+                    <rect key="frame" x="10" y="157" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_6.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_submitOrder:" destination="-1" eventType="touchUpInside" id="wMx-kW-KFI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mnO-S6-Kgh">
+                    <rect key="frame" x="86" y="157" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_7.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_myTask:" destination="-1" eventType="touchUpInside" id="CPd-mf-4vt"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="eF6-EF-UNs">
+                    <rect key="frame" x="131" y="166" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LeB-WQ-JrZ">
+                    <rect key="frame" x="163" y="157" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_30.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_TaskAssign:" destination="-1" eventType="touchUpInside" id="8d9-2i-kRo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Set-bG-Olf">
+                    <rect key="frame" x="10" y="233" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_9.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_myApply:" destination="-1" eventType="touchUpInside" id="lN8-KA-9yb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5XP-P7-J4i">
+                    <rect key="frame" x="162" y="233" width="148" height="148"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_10.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_WaitingForAssessment:" destination="-1" eventType="touchUpInside" id="skX-Lz-gNg"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="w7c-i9-6oH">
+                    <rect key="frame" x="281" y="243" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WRd-1s-R1y">
+                    <rect key="frame" x="10" y="383" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_11.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_CompanyDocument:" destination="-1" eventType="touchUpInside" id="Vio-Re-uf5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pug-Rb-AuP">
+                    <rect key="frame" x="86" y="384" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_13.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ClearAll:" destination="-1" eventType="touchUpInside" id="CbQ-83-hgL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RAG-19-AvP">
+                    <rect key="frame" x="86" y="460" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_14.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_AboutUs:" destination="-1" eventType="touchUpInside" id="W6T-qz-Zqz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CaS-5q-4Yb">
+                    <rect key="frame" x="162" y="384" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_15.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Have_A_Rest:" destination="-1" eventType="touchUpInside" id="68s-pf-cWb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Ym-TB-AbO">
+                    <rect key="frame" x="162" y="460" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_33.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Exit:" destination="-1" eventType="touchUpInside" id="juv-3l-JFq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VrG-JE-n86">
+                    <rect key="frame" x="238" y="384" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_32.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ChangeSecret:" destination="-1" eventType="touchUpInside" id="A14-1a-LK3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3UI-36-gA3">
+                    <rect key="frame" x="238" y="157" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_29.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Path:" destination="-1" eventType="touchUpInside" id="rIr-we-zhK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0fJ-Zl-qDg">
+                    <rect key="frame" x="10" y="308" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_gps.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_GPS:" destination="-1" eventType="touchUpInside" id="zHX-Xf-b2r"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LwQ-Z2-FXX">
+                    <rect key="frame" x="10" y="460" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_12.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Advice:" destination="-1" eventType="touchUpInside" id="JTR-gW-suX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="thk-yY-ywa">
+                    <rect key="frame" x="10" y="81" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_storage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Storage:" destination="-1" eventType="touchUpInside" id="j7G-C5-k3A"/>
+                    </connections>
+                </button>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="delegate" destination="-1" id="nLJ-GU-mHS"/>
+            </connections>
+            <point key="canvasLocation" x="357.5" y="-489.5"/>
+        </scrollView>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8WN-or-4Pf">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="655"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K0G-TV-EYE">
+                    <rect key="frame" x="10" y="5" width="148" height="148"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_1.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_message:" destination="-1" eventType="touchUpInside" id="AKd-Wx-78b"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8CF-MJ-0Kq">
+                    <rect key="frame" x="163" y="81" width="148" height="223"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_24.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_SignUp:" destination="-1" eventType="touchUpInside" id="MQl-ao-4rb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SJC-si-Rtl">
+                    <rect key="frame" x="10" y="233" width="148" height="223"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_25.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_CompanyDocument:" destination="-1" eventType="touchUpInside" id="LEl-Vj-j1L"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wh5-rY-inR">
+                    <rect key="frame" x="163" y="308" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_26.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_AboutUs:" destination="-1" eventType="touchUpInside" id="iF7-3R-jYa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="46j-O2-uTL">
+                    <rect key="frame" x="163" y="461" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_33.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Exit:" destination="-1" eventType="touchUpInside" id="Pk7-wN-AEV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x81-MN-XdO">
+                    <rect key="frame" x="163" y="384" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_28.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ChangeSecret:" destination="-1" eventType="touchUpInside" id="wq7-nT-J79"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nIF-2Q-ATT">
+                    <rect key="frame" x="164" y="5" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_19.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Advice:" destination="-1" eventType="touchUpInside" id="Xtp-IB-bsd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Bv-9I-RUf">
+                    <rect key="frame" x="10" y="157" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_gps.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GPF-n3-umo">
+                    <rect key="frame" x="8" y="461" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_27.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ClearAll:" destination="-1" eventType="touchUpInside" id="W0Y-oK-IJr"/>
+                    </connections>
+                </button>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="delegate" destination="-1" id="Mom-hH-TM5"/>
+            </connections>
+            <point key="canvasLocation" x="330" y="-428.5"/>
+        </scrollView>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="uvb-Sq-s3D">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GqF-59-Na0">
+                    <rect key="frame" x="10" y="6" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_1.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_message:" destination="-1" eventType="touchUpInside" id="ipo-dN-sIU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6rM-ha-siM">
+                    <rect key="frame" x="163" y="157" width="148" height="223"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_17.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_DataAnalyse:" destination="-1" eventType="touchUpInside" id="gbr-dx-Lgs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vrR-S5-6Bd">
+                    <rect key="frame" x="163" y="537" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_20.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_CompanyDocument:" destination="-1" eventType="touchUpInside" id="dEe-9v-STi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MTC-jF-mdF">
+                    <rect key="frame" x="163" y="385" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_19.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Advice:" destination="-1" eventType="touchUpInside" id="E11-Yk-ifQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="df5-U5-mv1">
+                    <rect key="frame" x="163" y="613" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_33.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Exit:" destination="-1" eventType="touchUpInside" id="LIh-nJ-WmL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dqo-eA-kl8">
+                    <rect key="frame" x="86" y="308" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_30.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_TaskAssign:" destination="-1" eventType="touchUpInside" id="rY6-k7-L0S"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w9E-xh-ydU">
+                    <rect key="frame" x="10" y="385" width="148" height="148"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_10.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_WaitingForAssessment:" destination="-1" eventType="touchUpInside" id="jVx-Xi-EUm"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="gF0-be-M7e">
+                    <rect key="frame" x="130" y="395" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3yn-df-eU6">
+                    <rect key="frame" x="86" y="157" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_29.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Path:" destination="-1" eventType="touchUpInside" id="dUB-Xo-P9x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="018-hd-z0n">
+                    <rect key="frame" x="163" y="6" width="73" height="73"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_2.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_clerk:" destination="-1" eventType="touchUpInside" id="Gaj-0g-yyS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="akv-gZ-CBQ">
+                    <rect key="frame" x="239" y="5" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_3.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_rival:" destination="-1" eventType="touchUpInside" id="IoP-51-LdO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="98g-rd-BVx">
+                    <rect key="frame" x="164" y="81" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_visit:" destination="-1" eventType="touchUpInside" id="hYu-dB-d7w"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pbP-ej-wX2">
+                    <rect key="frame" x="239" y="81" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_5.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_SignUp:" destination="-1" eventType="touchUpInside" id="tHX-Eg-yQ5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iZi-V5-lqh">
+                    <rect key="frame" x="11" y="157" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_6.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_submitOrder:" destination="-1" eventType="touchUpInside" id="5eC-Rk-urK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LMz-QS-IfT">
+                    <rect key="frame" x="11" y="308" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_7.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_myTask:" destination="-1" eventType="touchUpInside" id="E4K-Hq-WGG"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="7g0-8M-XsM">
+                    <rect key="frame" x="61" y="318" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aaD-TD-B74">
+                    <rect key="frame" x="10" y="233" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_9.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_myApply:" destination="-1" eventType="touchUpInside" id="k8X-wk-Fr3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zg3-qv-D6u">
+                    <rect key="frame" x="87" y="613" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_13.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ClearAll:" destination="-1" eventType="touchUpInside" id="TQR-IR-1P2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T5C-yk-0tG">
+                    <rect key="frame" x="239" y="461" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_14.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_AboutUs:" destination="-1" eventType="touchUpInside" id="4W5-NE-x6z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G2A-vb-uAs">
+                    <rect key="frame" x="11" y="613" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_15.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Have_A_Rest:" destination="-1" eventType="touchUpInside" id="dQx-OT-l71"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Qa-eN-gO5">
+                    <rect key="frame" x="163" y="461" width="72" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_32.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_ChangeSecret:" destination="-1" eventType="touchUpInside" id="K3p-Gz-yYS"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_mention.png" id="sfE-P2-wlz">
+                    <rect key="frame" x="130" y="17" width="17" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XGq-ZH-LF9">
+                    <rect key="frame" x="11" y="537" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_gray_gps.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_GPS:" destination="-1" eventType="touchUpInside" id="agm-uC-WCD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zwt-Et-wa3">
+                    <rect key="frame" x="10" y="81" width="148" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="more_btn_storage.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="action_Storage:" destination="-1" eventType="touchUpInside" id="qVf-eM-exU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="delegate" destination="-1" id="Axm-Dq-Imd"/>
+            </connections>
+            <point key="canvasLocation" x="91.5" y="-415"/>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="more_btn_1.png" width="296" height="145"/>
+        <image name="more_btn_10.png" width="296" height="296"/>
+        <image name="more_btn_11.png" width="145" height="145"/>
+        <image name="more_btn_12.png" width="145" height="145"/>
+        <image name="more_btn_13.png" width="145" height="145"/>
+        <image name="more_btn_14.png" width="145" height="145"/>
+        <image name="more_btn_15.png" width="145" height="145"/>
+        <image name="more_btn_17.png" width="296" height="447"/>
+        <image name="more_btn_19.png" width="296" height="145"/>
+        <image name="more_btn_2.png" width="145" height="145"/>
+        <image name="more_btn_20.png" width="296" height="145"/>
+        <image name="more_btn_21.png" width="296" height="145"/>
+        <image name="more_btn_22.png" width="296" height="145"/>
+        <image name="more_btn_23.png" width="296" height="145"/>
+        <image name="more_btn_24.png" width="296" height="447"/>
+        <image name="more_btn_25.png" width="296" height="447"/>
+        <image name="more_btn_26.png" width="296" height="145"/>
+        <image name="more_btn_27.png" width="296" height="145"/>
+        <image name="more_btn_28.png" width="296" height="145"/>
+        <image name="more_btn_29.png" width="145" height="145"/>
+        <image name="more_btn_3.png" width="145" height="145"/>
+        <image name="more_btn_30.png" width="145" height="145"/>
+        <image name="more_btn_32.png" width="145" height="145"/>
+        <image name="more_btn_33.png" width="296" height="145"/>
+        <image name="more_btn_4.png" width="145" height="145"/>
+        <image name="more_btn_5.png" width="145" height="145"/>
+        <image name="more_btn_6.png" width="145" height="145"/>
+        <image name="more_btn_7.png" width="145" height="145"/>
+        <image name="more_btn_9.png" width="296" height="145"/>
+        <image name="more_btn_gps.png" width="296" height="145"/>
+        <image name="more_btn_gray_gps.png" width="296" height="145"/>
+        <image name="more_btn_storage.png" width="296" height="145"/>
+        <image name="nav_mention.png" width="70" height="80"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

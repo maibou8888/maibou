@@ -1,0 +1,120 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+#define isPad                     (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define isIOS8                    [[[UIDevice currentDevice] systemVersion] floatValue]>=8.0? YES:NO
+#define NotIOS8                   [[[UIDevice currentDevice] systemVersion] floatValue]<8.0? YES:NO
+#define isIOS7                    [[[UIDevice currentDevice] systemVersion] floatValue]>=7.0? YES:NO
+#define isIOS6                    [[[UIDevice currentDevice] systemVersion] floatValue]<7.0? YES:NO
+#define Phone_Weight              [UIScreen mainScreen].bounds.size.width
+#define StatusBar_System          [[[UIDevice currentDevice] systemVersion] floatValue]>=7.0 ? 20:0
+#define toolBar_Height            [[[UIDevice currentDevice] systemVersion] floatValue]>=7.0 ? 0:20
+#define combox_height             UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad? 60 : 44
+#define combox_height1            UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad? -60 : -44
+#define Near_By                   UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad? 20 : 10
+
+#define TabbarHeight              49
+#define SUPPORT_IOS8              0
+#define  Update_Locaion_datas     100   //每次上传数据条数
+#define BaiduMap_level            16//地图缩放级别
+
+#define Root1                     @"http://192.168.0.254:8080/wzyb/"//测试
+#define Root                      @"http://192.168.0.2:8080/wzyb/"
+#define url_login                 @"portal.do?app=0&action=chk_login"
+
+#define KNOTIFICATION_LOGINCHANGE @"loginStateChange"
+#define Baidu_Key                 @"Iiefcf5FnzPGMrqLlBpKh815"
+#define LAST_RUN_VERSION_KEY      @"last_run_version_of_application"
+#define kAppId                    @"br5rNRyb9c7m7hHMOZZ786"
+#define kAppKey                   @"mn5VMgSzpW9lMwkkpxxw66"
+#define kAppSecret                @"1t280SVYVA82QV1cem7cP"
+
+#define SHOW      @"show"
+#define IMAGE     @"image"
+#define TEXT      @"text"
+#define HISTORY   @"history"
+#define KEY       @"key"
+#define QCOUNT    @"qcount"
+#define UPDATE    @"update"
+#define NUMBER    @"number"
+#define NUM_MES   @"num_mesg"
+#define NUM_ASG   @"num_assg"
+#define ADVERT    @"advert"
+#define FIRST     @"first"
+#define KFIRST     @"Kfirst"
+#define LEFT      @"left"
+#define APPBGIG   @"AppBgImage"
+#define GPSFLAG   @"GpsLoopFlag"
+#define GPSTIMER  @"GpsLoopTimeInterval"
+#define Customer  @"customer"
+#define OPPONENT  @"opponent"
+
+#define CONTENT   @"content"
+#define CPEOPLE   @"connectPeople"
+#define CONDATE   @"connectDate"
+#define CONTEXT   @"connecttext"
+#define CSTATUS   @"connectStatus"
+
+#define COMPLETEDATE @"complete_date"
+#define CKREFUSEDATE @"refuse_date"
+#define CKACCEPTDATE @"accept_date"
+#define CCONFIRMDATE @"confirm_date"
+
+#define ProductBrandList @"ProductBrandList"
+#define ProductTypeList  @"ProductTypeList"
+#define ProductPooList   @"ProductPooList"
+
+#define Phone_Height [UIScreen mainScreen].bounds.size.height-([[[UIDevice currentDevice] systemVersion] floatValue]>=7.0 ? 0:20)
+#define isIPhone5    ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define NavigationRootVC(VC) [[UINavigationController alloc] initWithRootViewController:[VC new]]
+#define ImageName(name)        [UIImage imageNamed:name]
+#define RenderImage(imageName) [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+#import "NdUncaughtExceptionHandler.h"
+#import "UrlValue.h"
+#import "AllSize.h"
+#import "Color.h"
+#import "MBProgressHUD.h"
+#import "Reachability.h"
+#import "SBJsonParser.h"
+#import "SBJson.h"
+#import "JSONKit.h"
+#import "ASIFormDataRequest.h"
+#import "SGInfoAlert.h"
+#import "NavView.h"
+#import "Function.h"
+#import "Water_Mark.h"
+#import "UIImage+BeeExtension.h"
+#import "BaseViewController.h"
+#import "ZbarCustomVC.h"
+#import "MessageNotice.h" //消息通知
+#import "SelfInfo.h"//个人信息每条
+#import "BasicData.h"  //基本表数据
+#import "SelfInf_Singleton.h"   //用户信息单例
+#import "IsRead.h"
+#import "AddProduct.h"//添加订单产品
+#import "TileAuthority.h"//购买权限
+#import "Advance_Search.h"//所有搜集条件
+#import "zbarNewViewController.h"
+
+#endif

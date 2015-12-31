@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0DF2F81914CC385B62383956CBC2D3F5198CE455",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7a2d1a18-cc9a-4d72-b225-2d6fa3914085++6765" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7a2d1a18-cc9a-4d72-b225-2d6fa3914085++6765" : 0,
+    "0DF2F81914CC385B62383956CBC2D3F5198CE455" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6BDDC9E9-F0F7-4E15-88FE-546C95245588",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7a2d1a18-cc9a-4d72-b225-2d6fa3914085++6765" : "Shangyingbao\/BaiduNaviSDK\/BaiduStatistics\/TouchJSON\/JSON\/",
+    "0DF2F81914CC385B62383956CBC2D3F5198CE455" : "EnterpriseHeart\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WZYB_syb",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WZYB_syb.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maibou8888\/EnterpriseHeart.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0DF2F81914CC385B62383956CBC2D3F5198CE455"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.baidu.com\/app\/search\/lbs-navi",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7a2d1a18-cc9a-4d72-b225-2d6fa3914085++6765"
+    }
+  ]
+}
